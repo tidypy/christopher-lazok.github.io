@@ -86,6 +86,7 @@
 &nbsp;  42     \*   [x] Configure CI build caching for dependencies and the Next.js build cache.
 &nbsp;  43     \*   [x] Ensure all components are compatible with production builds (e.g., using dynamic imports for client-side libraries).
 &nbsp;  44     \*   [x] Resolve all TypeScript and ESLint errors (including creating `.d.ts` declaration files for untyped libraries).
-&nbsp;  45     \*   [ ] Trigger the deployment by pushing to the `main` branch.
-&nbsp;  46     \*   [ ] Verify the deployed site on `christopher-lazok.github.io`.
-&nbsp;  47     \*   [ ] Document steps to embed the live site into Google Sites.
+&nbsp;  45     \*   [x] Trigger the deployment by pushing to the `main` branch.
+&nbsp;  46     \*   [ ] Configure `next.config.mjs` with `basePath` and `assetPrefix` for GitHub Pages sub-path deployment.
+&nbsp;  47     \*   [ ] Verify the deployed site on `https://tidypy.github.io/christopher-lazok.github.io/`.
+&nbsp;  48     \*   [ ] Document steps to embed the live site into Google Sites.
