@@ -4,8 +4,12 @@ import React, { useState, useEffect, useRef } from 'react';
 import * as THREE from 'three';
 import FOG from 'vanta/dist/vanta.fog.min';
 
+interface VantaEffect {
+  destroy: () => void;
+}
+
 const VantaBackground = ({ children }: { children: React.ReactNode }) => {
-  const [vantaEffect, setVantaEffect] = useState<any>(null);
+  const [vantaEffect, setVantaEffect] = useState<VantaEffect | null>(null);
   const vantaRef = useRef(null);
 
   useEffect(() => {
