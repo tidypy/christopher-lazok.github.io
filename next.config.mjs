@@ -1,13 +1,20 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // The output directory for the static export.
+  /**
+   * Enable static exports for the App Router.
+   *
+   * @see https://nextjs.org/docs/app/building-your-application/deploying/static-exports
+   */
   output: 'export',
 
-  // The base path for the project. This is the repository name.
-  basePath: '/christopher-lazok.github.io',
-
-  // The asset prefix for the project. This is the repository name.
-  assetPrefix: '/christopher-lazok.github.io/',
+  /**
+   * Disable server-based image optimization.
+   *
+   * @see https://nextjs.org/docs/app/api-reference/next-config-js/images
+   */
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;

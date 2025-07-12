@@ -1,8 +1,13 @@
 'use client';
 
 import { motion, Variants } from 'framer-motion';
-import VantaBackground from '@/components/VantaBackground';
+import dynamic from 'next/dynamic';
 
+// Dynamically import the VantaBackground component with SSR disabled.
+// This is crucial for libraries that depend on browser-specific APIs like `window`.
+const VantaBackground = dynamic(() => import('@/components/VantaBackground'), {
+  ssr: false,
+});
 const containerVariants: Variants = {
   hidden: { opacity: 1 },
   visible: {
