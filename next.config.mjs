@@ -8,6 +8,13 @@ const nextConfig = {
   output: 'export',
 
   /**
+   * Use relative asset paths for static hosting.
+   *
+   * @see https://nextjs.org/docs/app/api-reference/next-config-js/trailingSlash
+   */
+  trailingSlash: true,
+
+  /**
    * Disable server-based image optimization.
    *
    * @see https://nextjs.org/docs/app/api-reference/next-config-js/images

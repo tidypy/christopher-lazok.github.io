@@ -89,5 +89,7 @@
 &nbsp;  45     \*   [x] Trigger the deployment by pushing to the `main` branch.
 &nbsp;  46     \*   [x] Fix client-side library rendering by using dynamic imports.
 &nbsp;  47     \*   [x] Configure `next.config.mjs` for static export to GitHub Pages.
-&nbsp;  48     \*   [ ] Verify the deployed site on `https://christopher-lazok.github.io/`.
-&nbsp;  49     \*   [ ] Document steps to embed the live site into Google Sites.
+&nbsp;  48     \*   [x] Fix asset paths for static hosting by enabling `trailingSlash`.
+&nbsp;  49     \*   [x] Debug and fix client-side runtime error causing a blank page.
+&nbsp;  50     \*   [x] Verify the deployed site on `https://christopher-lazok.github.io/`.
+&nbsp;  51     \*   [ ] Document steps to embed the live site into Google Sites.
