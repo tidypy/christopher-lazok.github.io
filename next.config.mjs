@@ -1,16 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // The output directory for the static export.
   output: 'export',
 
-  // Configure `basePath` and `assetPrefix` for GitHub Pages
-  // This makes sure the app knows it's running under /hero-section/
-  basePath: '/hero-section',
-  assetPrefix: '/hero-section',
+  // The base path for the project. This is the repository name.
+  basePath: '/christopher-lazok.github.io',
 
-  // Disable image optimization, as it's not supported with static export
-  images: {
-    unoptimized: true,
-  },
+  // The asset prefix for the project. This is the repository name.
+  assetPrefix: '/christopher-lazok.github.io/',
 };
 
 export default nextConfig;
