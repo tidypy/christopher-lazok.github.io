@@ -80,11 +80,12 @@
 
 &nbsp;  38
 
-&nbsp;  39 5.  \*\*Build \& Deployment:\*\*
-
-&nbsp;  40     \*   [x] Configure the project to export as static HTML/CSS/JS.
-
-&nbsp;  41     \*   [x] Run the build process to generate the final embeddable files.
-
-&nbsp;  42     \*   [x] Provide instructions on how to embed the generated code into Google Sites.
+&nbsp;  39 5.  \*\*Build \& Deployment to GitHub Pages:\*\*
+&nbsp;  40     \*   [x] Create a GitHub Actions workflow (`.github/workflows/nextjs.yml`) for automated builds.
+&nbsp;  41     \*   [x] Configure the workflow to use `actions/configure-pages` for static export (`output: 'export'`).
+&nbsp;  42     \*   [x] Ensure all components are compatible with production builds (e.g., using dynamic imports for client-side libraries).
+&nbsp;  43     \*   [x] Resolve all TypeScript and ESLint errors to ensure a type-safe build.
+&nbsp;  44     \*   [ ] Trigger the deployment by pushing to the `main` branch.
+&nbsp;  45     \*   [ ] Verify the deployed site on `christopher-lazok.github.io`.
+&nbsp;  46     \*   [ ] Document steps to embed the live site into Google Sites.
 
