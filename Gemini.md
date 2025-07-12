@@ -88,4 +88,3 @@
 &nbsp;  44     \*   [ ] Trigger the deployment by pushing to the `main` branch.
 &nbsp;  45     \*   [ ] Verify the deployed site on `christopher-lazok.github.io`.
 &nbsp;  46     \*   [ ] Document steps to embed the live site into Google Sites.
-
