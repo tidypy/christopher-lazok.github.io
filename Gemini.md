@@ -83,8 +83,9 @@
 &nbsp;  39 5.  \*\*Build \& Deployment to GitHub Pages:\*\*
 &nbsp;  40     \*   [x] Create a GitHub Actions workflow (`.github/workflows/nextjs.yml`) for automated builds.
 &nbsp;  41     \*   [x] Configure the workflow to use `actions/configure-pages` for static export (`output: 'export'`).
-&nbsp;  42     \*   [x] Ensure all components are compatible with production builds (e.g., using dynamic imports for client-side libraries).
-&nbsp;  43     \*   [x] Resolve all TypeScript and ESLint errors to ensure a type-safe build.
-&nbsp;  44     \*   [ ] Trigger the deployment by pushing to the `main` branch.
-&nbsp;  45     \*   [ ] Verify the deployed site on `christopher-lazok.github.io`.
-&nbsp;  46     \*   [ ] Document steps to embed the live site into Google Sites.
+&nbsp;  42     \*   [x] Configure CI build caching for dependencies and the Next.js build cache.
+&nbsp;  43     \*   [x] Ensure all components are compatible with production builds (e.g., using dynamic imports for client-side libraries).
+&nbsp;  44     \*   [x] Resolve all TypeScript and ESLint errors (including creating `.d.ts` declaration files for untyped libraries).
+&nbsp;  45     \*   [ ] Trigger the deployment by pushing to the `main` branch.
+&nbsp;  46     \*   [ ] Verify the deployed site on `christopher-lazok.github.io`.
+&nbsp;  47     \*   [ ] Document steps to embed the live site into Google Sites.
