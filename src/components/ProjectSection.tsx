@@ -81,10 +81,10 @@ const ProjectSection = () => {
 
                 {/* Filter Buttons */}
                 <div className="flex justify-center gap-4 mb-12">
-                    {(['all', 'code', 'doc'] as const).map((f) => (
+                    {['all', 'code', 'doc'].map((f) => (
                         <button
                             key={f}
-                            onClick={() => setFilter(f)}
+                            onClick={() => setFilter(f as 'all' | 'code' | 'doc')}
                             className={`px-6 py-2 rounded-full text-sm font-semibold transition-all ${filter === f
                                 ? 'bg-cyan-500 text-white shadow-lg shadow-cyan-500/25'
                                 : 'bg-slate-900 text-slate-400 hover:bg-slate-800'
